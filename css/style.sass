@@ -2,7 +2,7 @@ $main-font: Roboto, sans-serif
 $title-font: Playfair Display, sans-serif
 $bg-gradient: linear-gradient(to right, #09052f 0%, #311d5e 100%) transparent 100%
 $font-title: 'Playfair Display', serif
-$font-text: 'Hammersmith One', sans-serif
+$font-button: 'Hammersmith One', sans-serif
 
 body
   font: $main-font
@@ -62,17 +62,81 @@ body
   font-size: 13px
 
 .main-menu li
-    list-style-type: none
-    padding: 0 5px
+  list-style-type: none
+  padding: 0 5px
 
 .main-menu li a
-      padding: 0 10px
-      text-decoration: none
-      color: #ffffff
-      text-transform: uppercase
+  padding: 0 10px
+  text-decoration: none
+  color: #ffffff
+  text-transform: uppercase
 
 .main-menu li a:hover
   color: #00e0d0
 
+.wellcome-title
+  text-align: center
+  margin-top: 180px
+  position: relative
+  color: #ffffff
+
+.wellcome-title h2
+  font-family: $font-title
+  font-size: 31px
+
+.wellcome-title h2:after
+  content: ""
+  border-bottom: 50px
+  color: #00e0d0
+  position: absolute
+
+.wellcome-title p
+  font-family: $main-font
+  font-size: 14px
+  line-height: 24px
+  margin: 30px 125px
+  font-weight: 300
+  margin-bottom: 50px
+
+.page
+  display: inline-block
+  border: 1px solid #00e0d0
+  position: relative
+  padding: 15px
+  line-height: 17px
+  text-decoration: none
+  color: #00e0d0
+  font-family: $font-button
+  font-size: 16px
+  text-transform: uppercase
+
+.slaider
+  position: relative
+  display: flex
+  width: 60px
+  justify-content: space-between
+  margin: 100px auto
+
+.slaider li
+  list-style-type: circle
+  padding: 0 5px
+
+.slaider li:nth-child(1)
+  margin-left: 30px
+
+.slaider li:hover
+  color: #00e0d0
+
+.our-story
+    background-color: #ffffff
+
+.flex
+  display: flex
+  justify-content: space-between
+  margin-top: 70px
+
+.img-logo
+  display: block
+  margin: 0 100px 0 100px
 
 
