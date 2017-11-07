@@ -53,7 +53,7 @@ body {
 .main-menu {
   display: flex;
   font-family: Roboto, sans-serif;
-  font-size: 13px; }
+  font-size: 14px; }
 
 .main-menu li {
   list-style-type: none;
@@ -80,17 +80,21 @@ body {
 
 .wellcome-title h2:after {
   content: "";
-  border-bottom: 50px;
-  color: #00e0d0;
-  position: absolute; }
+  border-bottom: 1px solid #00e0d0;
+  position: absolute;
+  left: 50%;
+  width: 50px;
+  top: 11%;
+  margin: 20px 0;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%); }
 
 .wellcome-title p {
   font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 24px;
-  margin: 30px 125px;
-  font-weight: 300;
-  margin-bottom: 50px; }
+  margin: 50px 125px;
+  font-weight: 300; }
 
 .page {
   display: inline-block;
@@ -102,7 +106,8 @@ body {
   color: #00e0d0;
   font-family: "Hammersmith One", sans-serif;
   font-size: 16px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-bottom: 50px; }
 
 .slaider {
   position: relative;
@@ -132,5 +137,62 @@ body {
 .img-logo {
   display: block;
   margin: 0 100px 0 100px; }
+
+.about {
+  color: #413d4b; }
+
+.about h2 {
+  font-family: "Playfair Display", serif;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-size: 22px; }
+
+.about p {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 30px; }
+
+.bg-video-watch {
+  background: url(../images/city-bg-img.png) no-repeat, center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden; }
+
+.bg-video-watch:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  top: 0;
+  height: 100%;
+  background: linear-gradient(to right, #09052f 0%, #311d5e 100%) transparent 100%;
+  background-size: cover;
+  opacity: 0.85;
+  z-index: 0; }
+
+.video-watch {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 40%; }
+
+.video-watch a {
+  color: #ffffff;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.video-watch a img {
+  display: block;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  padding: 20px;
+  margin-bottom: 20px; }
 
 /*# sourceMappingURL=style.css.map */
