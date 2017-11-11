@@ -133,7 +133,7 @@ body
   color: #00e0d0
 
 .bg-white
-    background-color: #ffffff
+  background-color: #ffffff
 
 .flex
   display: flex
@@ -160,6 +160,7 @@ body
     font-size: 14px
     line-height: 22px
     margin-bottom: 30px
+    opacity: 0.75
 
 .bg-video-watch
   background: url(../images/city-bg-img.png) no-repeat, center
@@ -185,7 +186,6 @@ body
   display: flex
   justify-content: center
   margin-top: 40%
-
 
 .video-watch
   a
@@ -233,6 +233,7 @@ body
     margin: 35px 0
     -webkit-transform: translateX(-50%)
     transform: translateX(-50%)
+    opacity: 0.3
 
 .expertise-list
   display: flex
@@ -249,11 +250,16 @@ body
     font-size: 14px
     border: 1px solid #000000
 
-
 .expertise-list
   li:nth-child(odd)
     border: none
 
+.expertise-list
+  li
+    a
+      display: block
+      text-decoration: none
+      color: transparent
 
 .expertise-list
   li
@@ -276,6 +282,7 @@ body
       font-size: 14px
       color: #333333
       padding: 25px 35px 40px
+      opacity: 0.75
 
 .bg-team
   background: url(../images/forest-bg-img.png) no-repeat, center
@@ -286,15 +293,15 @@ body
   overflow: hidden
 
 .bg-team:before
-    content: ""
-    position: absolute
-    width: 100%
-    top: 0
-    height: 100%
-    background: $bg-gradient
-    background-size: cover
-    opacity: 0.85
-    z-index: 0
+  content: ""
+  position: absolute
+  width: 100%
+  top: 0
+  height: 100%
+  background: $bg-gradient
+  background-size: cover
+  opacity: 0.85
+  z-index: 0
 
 .team-title
   margin-top: 70px
@@ -302,7 +309,6 @@ body
   text-align: center
   position: relative
   font-family: $title-font
-
 
 .team-title
   h2
@@ -323,6 +329,7 @@ body
     margin: 35px 0
     -webkit-transform: translateX(-50%)
     transform: translateX(-50%)
+    opacity: 0.2
 
 .team-list
   display: flex
@@ -373,5 +380,134 @@ body
     font-size: 14px
     padding-bottom: 25px
 
+.our-works
+  margin: 70px 10px
+  display: flex
+  justify-content: space-between
+  color: #413d4b
+
+.our-works
+  h2
+    font-family: $font-title
+    font-size: 16px
+
+.our-works
+  a
+    font-family: $main-font
+    font-size: 14px
+    text-decoration: none
+    color: #413d4b
+    padding-right: 5px
+
+.our-works
+  a:after
+    content: ">"
+    color: inherit
+    right: 20%
+    position: absolute
+
+.our-works-list
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+
+.footer-our-works
+  text-align: center
+  margin: 70px 10px
+
+.people-say
+  background: url(../images/section-karusel-bg-img.png) no-repeat, center
+  background-size: cover
+  width: 100%
+  height: 100vh
+  position: relative
+  overflow: hidden
+
+.people-say:before
+  content: ""
+  position: absolute
+  width: 100%
+  top: 0
+  height: 100%
+  background: $bg-gradient
+  background-size: cover
+  opacity: 0.85
+  z-index: 0
+
+.blockquote
+  position: relative
+  color: #ffffff
+  font-family: $font-title
+  font-size: 16px
+  text-align: center
+  margin-top: 70px
+
+.blockquote
+  p
+    padding: 70px 105px 0
+    opacity: 0.85
+
+.blockquote
+  p:before
+    content: ""
+    background: url("../images/blockqoute.png") no-repeat center
+    position: absolute
+    width: 32px
+    height: 26px
+    top: 0
+    left: 50%
+    -webkit-transform: translateX(-50%)
+    transform: translateX(-50%)
+    opacity: 0.9
+
+.people-say-title
+  text-align: center
+  color: #ffffff
+  font-family: $main-font
+  position: relative
+  margin-top: 50px
+
+.people-say-title
+  h3
+    font-size: 14px
+
+.people-say-title
+  p
+    font-size: 13px
+    font-weight: 300
+    margin-top: 13px
+    opacity: 0.7
+
+.people-say-img
+  margin: 45px 10px 70px
+  position: relative
+  text-align: center
 
 
+.people-say-img
+  ul
+    display: flex
+    justify-content: center
+    align-items: center
+
+.people-say-img
+  ul
+    li
+      list-style-type: none
+      padding: 0 8px
+
+.people-say-img
+  ul:before
+    content: "<"
+    left: 25%
+    color: #ffffff
+    opacity: 0.3
+    position: absolute
+
+.people-say-img
+  ul:after
+    content: ">"
+    right: 25%
+    color: #ffffff
+    opacity: 0.3
+    position: absolute

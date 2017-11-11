@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fb9a144-b982-40ad-be8f-f4e7ff5b05c2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/image-none.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/video.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/blockqoute.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/our-works-image.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css.map" afterPath="$PROJECT_DIR$/css/style.css.map" />
@@ -22,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="170" column="37" lean-forward="false" selection-start-line="170" selection-start-column="37" selection-end-line="170" selection-end-column="37" />
+            <state relative-caret-position="310">
+              <caret line="286" column="15" lean-forward="false" selection-start-line="286" selection-start-column="15" selection-end-line="286" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -35,18 +35,18 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-633">
+            <state relative-caret-position="102">
               <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.sass" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.sass" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="366" column="20" lean-forward="true" selection-start-line="366" selection-start-column="20" selection-end-line="366" selection-end-column="20" />
+            <state relative-caret-position="294">
+              <caret line="500" column="16" lean-forward="true" selection-start-line="500" selection-start-column="16" selection-end-line="500" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -94,8 +94,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,7 +159,8 @@
       <workItem from="1510178930610" duration="593000" />
       <workItem from="1510180374549" duration="2406000" />
       <workItem from="1510183532461" duration="1497000" />
-      <workItem from="1510260915755" duration="7035000" />
+      <workItem from="1510260915755" duration="8540000" />
+      <workItem from="1510349340375" duration="7711000" />
     </task>
     <task id="LOCAL-00001" summary="add images">
       <created>1509830744654</created>
@@ -196,11 +197,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510096210055</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add section expertise. add section team">
+      <created>1510270243452</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1510270243453</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35133000" />
+    <option name="totallyTimeSpent" value="44349000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="148" y="118" width="1104" height="713" extended-state="0" />
@@ -235,13 +243,38 @@
     <MESSAGE value="finish logo and main-menu" />
     <MESSAGE value="add section about us" />
     <MESSAGE value="add section video-watch" />
-    <option name="LAST_COMMIT_MESSAGE" value="add section video-watch" />
+    <MESSAGE value="add section expertise. add section team" />
+    <option name="LAST_COMMIT_MESSAGE" value="add section expertise. add section team" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6528">
+          <caret line="384" column="32" lean-forward="true" selection-start-line="384" selection-start-column="32" selection-end-line="384" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -384,13 +417,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore.txt">
@@ -449,24 +482,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-633">
+        <state relative-caret-position="102">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/photo-second.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="286" column="15" lean-forward="false" selection-start-line="286" selection-start-column="15" selection-end-line="286" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="366" column="20" lean-forward="true" selection-start-line="366" selection-start-column="20" selection-end-line="366" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="170" column="37" lean-forward="false" selection-start-line="170" selection-start-column="37" selection-end-line="170" selection-end-column="37" />
+        <state relative-caret-position="294">
+          <caret line="500" column="16" lean-forward="true" selection-start-line="500" selection-start-column="16" selection-end-line="500" selection-end-column="16" />
           <folding />
         </state>
       </provider>
